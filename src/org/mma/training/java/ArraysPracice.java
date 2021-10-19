@@ -28,13 +28,7 @@ public class ArraysPracice {
 			System.out.println(stuIds[i]);
 		}
 
-
-
-
-
-
-		String car = "Tesla";
-		System.out.println(car);
+		//Making an Array containing list of friends
 
 		String[] fr = {"Ati","Asto","Kelthoom","Roqayya"};//Declaring and intializing an array
 		System.out.println(fr[0]);
@@ -42,20 +36,25 @@ public class ArraysPracice {
 		fr[3] = "Fatima";
 
 		System.out.println(fr[3]);
-		String[] Amies= new String[4];//another way of declaring an Array
+
+		//another way of declaring an Array
+		String[] Amies= new String[4];
 		Amies[0]= "Ati";
 		Amies[1]="Asto";
 		Amies[2]="Fati";
 		for(int i=0; i<Amies.length; i++) {
 			System.out.println(Amies[i]);
 		}
-
+		//Another example of Array
 
 		String[] IslamPillars = { "Shahaadah","Salat","Zakat","Sawm","Hajj"};
 		System.out.println(IslamPillars[4]);
+
+		//for Loop
 		for(int i = 0; i< IslamPillars.length; i++ ) {
 			System.out.println(IslamPillars[i]);
 		}
+		//Same Example but different way of declaring the array and initializing the elements in the array
 		String[] Islampillars = new String[5];
 		Islampillars[0]= "Shahaadah";
 		Islampillars[1] = "Salat";
@@ -64,7 +63,7 @@ public class ArraysPracice {
 		Islampillars[4] ="Hajj";
 
 		System.out.println(Islampillars[4]);
-		//System.out.println(Islampillars[5]);
+		//System.out.println(Islampillars[5]);// bc We have only 5elemnts, there will no value for i=5
 
 		String[] Ipillars = { "Shahaadah","Salat","Zakat","Sawm","Hajj"};
 
@@ -72,10 +71,13 @@ public class ArraysPracice {
 			System.out.println(Ipillars[i]);
 		}
 
+		//Another easy example for Array	
 		String[] Fruits = { "Banana", "Apple", "Grapes", " Watermelon"};
 		System.out.println(Fruits[3]);
 		System.out.println(Fruits[0]);
+
 		//Another way of declaring ArrayFruits
+
 		String[] fruits = new String[4];
 		fruits[0]= "Banana";
 		fruits[1]= "Apple";
@@ -85,12 +87,6 @@ public class ArraysPracice {
 		for(int i = 0; i<fruits.length; i++) {
 			System.out.println(fruits[i]);
 		}
-		//simple practice for Arrays for the beginners
-
-
-
-
-
 
 	}
 
